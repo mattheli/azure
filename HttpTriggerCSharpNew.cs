@@ -10,9 +10,9 @@ using Newtonsoft.Json;
 
 namespace Mattheli.Function
 {
-    public static class MattheliCSharpHTTPTrigger
+    public static class HttpTriggerCSharpNew
     {
-        [FunctionName("MattheliCSharpHTTPTrigger")]
+        [FunctionName("HttpTriggerCSharpNew")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
             ILogger log)
